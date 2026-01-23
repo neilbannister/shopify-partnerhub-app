@@ -10,7 +10,7 @@ generator client {
 // See https://www.prisma.io/docs/orm/reference/prisma-schema-reference#string for more information
 datasource db {
   provider = "postgresql"
-  url      = env("postgresql://partnerhub_user:6um5IfIevkCIEIOC2WVAqoqhs1QdhLB8@dpg-d5plduk9c44c73cqo0t0-a/partnerhub")
+  url      = env("DATABASE_URL")
 }
 
 model Session {
